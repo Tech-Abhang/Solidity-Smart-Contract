@@ -7,7 +7,7 @@ contract SimpleStorage {
     string FavoriteNumberInTest = "my fav is 7";
     address myAddress = 0xA5c7f43162333963149E5AC357917b37974A41f6;
 
-    function Store(uint256 _favNumber) public {
+    function Store(uint256 _favNumber) public virtual {
         favoriteNumber = int256(_favNumber);
     }
 

@@ -15,4 +15,5 @@ contract StorageFactory{
        listOfSimpleStorage.push(newSimpleStorage);  //saving the contract to the varible
     }
 
+
 }
